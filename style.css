@@ -172,11 +172,9 @@ section {
 
 
 /* for large screen */
-@media screen and (width >= 768px) {
+@media screen and (width > 768px) {
 
     body {
-        /* width: 1440px; */
-
         background-image: var(--bg-desktop);
         background-size: 100% 50%;
         background-position: bottom;
